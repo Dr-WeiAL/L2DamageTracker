@@ -103,8 +103,8 @@ public class L2DamageTypes extends DamageTypeAndTagsGen {
 			pvd.tag(MAGIC).addOptionalTag(DamageTypeTagGenerator.ENDER_MAGIC.location());
 			pvd.tag(MAGIC).addOptionalTag(DamageTypeTagGenerator.BLOOD_MAGIC.location());
 			pvd.tag(MAGIC).addOptionalTag(DamageTypeTagGenerator.EVOCATION_MAGIC.location());
-			pvd.tag(MAGIC).addOptionalTag(DamageTypeTagGenerator.VOID_MAGIC.location());
-			pvd.tag(MAGIC).addOptionalTag(DamageTypeTagGenerator.POISON_MAGIC.location());
+			pvd.tag(MAGIC).addOptionalTag(DamageTypeTagGenerator.ELDRITCH_MAGIC.location());
+			pvd.tag(MAGIC).addOptionalTag(DamageTypeTagGenerator.NATURE_MAGIC.location());
 			pvd.tag(MAGIC).addOptional(ISSDamageTypes.CAULDRON.location());
 			pvd.tag(MAGIC).addOptional(ISSDamageTypes.HEARTSTOP.location());
 			pvd.tag(MAGIC).addOptional(ISSDamageTypes.DRAGON_BREATH_POOL.location());
